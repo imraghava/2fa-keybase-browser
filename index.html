@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Keybase 2FA</title>
+		<meta charset="UTF-8">
+		<script src="openpgp.min.js"></script>
+		<script src="sha1.min.js"></script>
+	</head>
+	<body>
+		<script src="2fa-keybase.js"></script>
+		<input id="kbUname" placeholder="KeyBase Username">
+		<button id="kbUsub" onclick="kbusub()">Proceed</button>
+		<p id="messageResult" style="display: none;"></p>
+		<input id="kbRes" placeholder="Decrypted Result" style="display: none;">
+		<button id="kbRsub" onclick="kbrsub()" style="display: none;">Proceed</button>
+		<p id="result" style="display: none;"></p>
+	</body>
+</html>
